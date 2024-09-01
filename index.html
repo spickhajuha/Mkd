@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+<section>
+<h2>Open Link</h2>
+<div class="column">
+<input type="Number" id="link-input" >
+<button onclick="openLink()">Open</button>
+</div>
+</section>
+<script>
+function openLink() {
+var input = document.getElementById("link-input").value;
+if (input === "1") {
+window.open("upmsp.edu.in", "_blank");
+} else if (input === "2") {
+window.open("youtube in", "_blank");
+} else if (input === "3") {
+window.open("3.html", "_blank");
+} else {
+alert("Invalid input");
+}
+}
+</script>
+</body>
+</html>
